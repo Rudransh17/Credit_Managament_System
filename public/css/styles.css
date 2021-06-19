@@ -1,0 +1,170 @@
+#title{
+background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* color: #fff; */
+}
+body{
+    color: white;
+}
+.container-fluid{
+    padding:2% 10% 4.5%;
+}
+
+li{
+    color: black;
+    font-size: 30px;
+}
+
+.h1{
+    font-family: "Montserrat Black";
+    font-size: 5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+    font-size: 60px;
+    color: white;
+    
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding:0px 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.title-image{
+    width: 80%;
+    /* transform:rotate(20deg); */
+    position:absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.Logo{
+    width:40px;
+}
+
+#features{
+    padding:7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding:5%;
+}
+
+h3{
+    font-weight: bold;
+    color: black;
+}
+
+p{
+    color:#8f8f8f;
+    font-weight: 600;
+}
+
+.icon{
+    color:#302b63;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color:#302b63;
+}
+
+
+#testimonials{
+    text-align: center;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color:#ffd95b ;
+    color: #fff;
+}
+
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding:7% 15%;
+
+}
+
+#footer{
+    padding: 4% 10%;
+    text-align: center;
+}
+
+.social-icon{
+    margin:20px 10px;
+}
+
+@media(max-width:1028px){
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+.card{
+    background-color:#eeeeee;
+    text-align: center;
+    /* width: fit-content;
+    height: 300px; */
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-img-top{
+    width: auto;
+    height: 400px;
+}
+.card-text{
+        color: black;
+        font-size: 20px;
+}
+
+.btd{
+    margin-left: 125px;
+}
+
+.table{
+    text-align: center;
+}
+.btn
+{
+    background-color: #5d5491;
+}
+footer{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
